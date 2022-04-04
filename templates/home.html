@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Welcome {{ username }}</h2>
+  <p>Choose the activity to be tracked</p>
+  <p></p>
+  <p></p>                                          
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Activities
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="/height">Height</a></li>
+      <li><a href="/weight">Weight</a></li>
+      <li><a href="/temp">Temperature</a></li>
+      <li><a href="/mood">Mood</a></li>
+      <li><a href="/pulse">Pulse</a></li>
+      <li><a href="/location">Location</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
